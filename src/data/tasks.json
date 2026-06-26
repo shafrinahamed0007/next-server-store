@@ -1,0 +1,73 @@
+[
+    {
+        "id": "TASK-001",
+        "title": "Design landing page wireframes",
+        "description": "Create low-fidelity wireframes for the new product homepage, focusing on the hero section and CTA placement.",
+        "status": "In Progress",
+        "priority": "High",
+        "assignee": {
+            "name": "Alex Rivera",
+            "email": "alex@company.com"
+        },
+        "tags": [
+            "design",
+            "ui-ux",
+            "v2-launch"
+        ],
+        "created_at": "2026-06-25T09:00:00Z",
+        "due_date": "2026-06-30T17:00:00Z",
+        "completed_at": null
+    },
+    {
+        "id": "TASK-002",
+        "title": "Fix authentication bypass bug",
+        "description": "Resolve the security vulnerability reported in the OAuth login flow where expired tokens are occasionally accepted.",
+        "status": "Todo",
+        "priority": "Critical",
+        "assignee": {
+            "name": "Jordan Lee",
+            "email": "jordan@company.com"
+        },
+        "tags": [
+            "backend",
+            "security",
+            "bug"
+        ],
+        "created_at": "2026-06-26T14:30:00Z",
+        "due_date": "2026-06-27T12:00:00Z",
+        "completed_at": null
+    },
+    {
+        "id": "TASK-003",
+        "title": "Update Q2 financial report",
+        "description": "Compile the final revenue numbers for Q2 and update the master spreadsheet for the board meeting.",
+        "status": "Completed",
+        "priority": "Medium",
+        "assignee": {
+            "name": "Taylor Smith",
+            "email": "taylor@company.com"
+        },
+        "tags": [
+            "finance",
+            "reporting"
+        ],
+        "created_at": "2026-06-20T11:15:00Z",
+        "due_date": "2026-06-26T16:00:00Z",
+        "completed_at": "2026-06-26T15:45:00Z"
+    },
+    {
+        "id": "TASK-004",
+        "title": "Draft weekly newsletter",
+        "description": "Write the content for the weekly community update. Include the latest blog post link and product announcements.",
+        "status": "Todo",
+        "priority": "Low",
+        "assignee": null,
+        "tags": [
+            "marketing",
+            "content"
+        ],
+        "created_at": "2026-06-27T08:00:00Z",
+        "due_date": "2026-07-02T18:00:00Z",
+        "completed_at": null
+    }
+]

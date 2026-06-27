@@ -4,7 +4,7 @@ import { getTasks } from "@/lib/task";
 const TasksPage = async () => {
   const tasks = await getTasks();
   return (
-    <div>
+    <div className="container mx-auto">
       <h2>Tasks: {tasks.length}</h2>
       <div className="my-5  grid md:grid-cols-2 lg:grid-cols-3 gap-3 ">
         {tasks.map((task) => (

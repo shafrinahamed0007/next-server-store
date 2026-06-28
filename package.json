@@ -17,6 +17,8 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@gravity-ui/icons": "^2.19.0",
+    "@iconify-json/gravity-ui": "^1.2.13",
     "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",

@@ -2,7 +2,7 @@
 import { CirclePlus } from "@gravity-ui/icons";
 import { Button, Input, Label, Modal, Surface, TextField } from "@heroui/react";
 
-const AddTask = () => {
+const AddTask = ({createATask}) => {
   return (
     <Modal>
       <Button variant="secondary">Add a Task</Button>
@@ -18,7 +18,7 @@ const AddTask = () => {
             </Modal.Header>
             <Modal.Body className="p-6">
               <Surface variant="default">
-                <form className="flex flex-col gap-4">
+                <form action={createATask} className="flex flex-col gap-4">
                   <TextField
                     className="w-full"
                     name="name"
@@ -62,15 +62,15 @@ const AddTask = () => {
                     <Label>Message</Label>
                     <Input placeholder="Enter your message" />
                   </TextField>
+                  <Modal.Footer>
+                    <Button variant="secondary">
+                      Cancel
+                    </Button>
+                    <Button type="submit">Submit Task</Button>
+                  </Modal.Footer>
                 </form>
               </Surface>
             </Modal.Body>
-            <Modal.Footer>
-              <Button slot="close" variant="secondary">
-                Cancel
-              </Button>
-              <Button slot="close">Send Message</Button>
-            </Modal.Footer>
           </Modal.Dialog>
         </Modal.Container>
       </Modal.Backdrop>

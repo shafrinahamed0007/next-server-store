@@ -5,10 +5,7 @@
         "description": "Create low-fidelity wireframes for the new product homepage, focusing on the hero section and CTA placement.",
         "status": "In Progress",
         "priority": "High",
-        "assignee": {
-            "name": "Alex Rivera",
-            "email": "alex@company.com"
-        },
+        "assginedTo": "John Doe",
         "tags": [
             "design",
             "ui-ux",
@@ -23,11 +20,8 @@
         "title": "Fix authentication bypass bug",
         "description": "Resolve the security vulnerability reported in the OAuth login flow where expired tokens are occasionally accepted.",
         "status": "Todo",
-        "priority": "Critical",
-        "assignee": {
-            "name": "Jordan Lee",
-            "email": "jordan@company.com"
-        },
+        "priority": "Medium",
+        "assigned": "Alex Smith",
         "tags": [
             "backend",
             "security",
@@ -43,10 +37,7 @@
         "description": "Compile the final revenue numbers for Q2 and update the master spreadsheet for the board meeting.",
         "status": "Completed",
         "priority": "Medium",
-        "assignee": {
-            "name": "Taylor Smith",
-            "email": "taylor@company.com"
-        },
+        "assigned": "Smith",
         "tags": [
             "finance",
             "reporting"
@@ -61,7 +52,7 @@
         "description": "Write the content for the weekly community update. Include the latest blog post link and product announcements.",
         "status": "Todo",
         "priority": "Low",
-        "assignee": null,
+        "assigned": "John Doe",
         "tags": [
             "marketing",
             "content"

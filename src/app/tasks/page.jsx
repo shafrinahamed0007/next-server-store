@@ -6,7 +6,7 @@ import { getTasks } from "@/lib/task";
 const TasksPage = async () => {
   const tasks = await getTasks();
   return (
-    <div className="container mx-auto">
+    <div className="md:w-10/12 mx-auto space-y-5">
       <h2>Tasks: {tasks.length}</h2>
       <AddTask createATask = {createATask} />
       <div className="my-5  grid md:grid-cols-2 lg:grid-cols-3 gap-3 pt-8 ">
